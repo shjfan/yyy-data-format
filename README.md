@@ -1,3 +1,5 @@
+* # agent心跳信息
+
 * # 接口
 
 /heartbeat/api/hbcheck
@@ -15,15 +17,15 @@
 
 {
 
-    "agentId": "ysjJEcEcIo3237427125:LAPTOP-KPTVJHUB",
+```
+"agentId": "ysjJEcEcIo3237427125:LAPTOP-KPTVJHUB",
 
-    "hostMd5": "a9045c4bd3b62768ebd33aab87b3e5e2",
+"hostMd5": "a9045c4bd3b62768ebd33aab87b3e5e2",
 
-    "agentVer": "1.0.0.2017-02-20\_1\_replaceProbeJar2JDK1.6",
+"agentVer": "1.0.0.2017-02-20\_1\_replaceProbeJar2JDK1.6",
 
-    "confVer": "2017-02-15\_16\_27\_27"
+"confVer": "2017-02-15\_16\_27\_27"
+```
 
 }
-
-
 
