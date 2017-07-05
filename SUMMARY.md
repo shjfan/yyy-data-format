@@ -4,8 +4,6 @@
 * [agent](agent.md)
   * [agent心跳信息](1.md)
   * [可用性信息](2.md)
-  * 主机信息
+  * [主机信息](zhu-ji-xin-xi.md)
   * 主机运行指标
-
-
 
