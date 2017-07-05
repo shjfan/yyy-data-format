@@ -13,9 +13,11 @@
 
 ## JS探针
 
-* [JVM启动信息](jvmtan-zhen/jvmqi-dong-xin-xi.md)
-* 發生
-* --范德薩發
+\#[JVM启动信息](jvmtan-zhen/jvmqi-dong-xin-xi.md)
+
+\#\#[發生](jvmtan-zhen/fa-sheng.md)
+
+\#\#[范德薩發](jvmtan-zhen/fan-de-sa-fa.md)
 
 ## PHP探针
 
