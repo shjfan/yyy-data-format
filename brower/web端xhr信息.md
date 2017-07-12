@@ -38,5 +38,107 @@
 
 * ## 样例
 
+\[
 
+    {
+
+        "header": {
+
+            "tid": "RitGmoBwfw0151671866",
+
+            "appid": "ztRUFZRPDK0151963951",
+
+            "ip": "\#~\#~\#~",
+
+            "pt": "xhr"
+
+        },
+
+        "content": \[
+
+            {
+
+                "jid": "s895rf9v1490333457291",
+
+                "ref": "http://221.228.101.161:5796/portal/app/salesfunnelCAApp/salesfunnelWin?nodecode=CA211040&$portletWind=pmng\_adminforuser\_pmng\_MgrContentPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic&lrid=1684348072",
+
+                "ts": 1490333457291,
+
+                "jt": "web",
+
+                "bv": "Chrome55.0.2883.87",
+
+                "m": "POST",
+
+                "url": "/portal/core",
+
+                "es": 220,
+
+                "d": 28,
+
+                "sat": 200,
+
+                "t": 0,
+
+                "res": 1317,
+
+                "req": 3306,
+
+                "txid": "1490333456253dd637d0",
+
+                "txtime": "45818889",
+
+                "bid": "hyee7huommq9dx2n",
+
+                "dtxt": "other",
+
+                "ba": "CA211040\#other"
+
+            },
+
+            {
+
+                "jid": "ftngxqvd1490333457759",
+
+                "ref": "http://221.228.101.161:5796/portal/app/salesfunnelCAApp/salesfunnelWin?nodecode=CA211040&$portletWind=pmng\_adminforuser\_pmng\_MgrContentPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic&lrid=1684348072",
+
+                "ts": 1490333457759,
+
+                "jt": "web",
+
+                "bv": "Chrome55.0.2883.87",
+
+                "m": "POST",
+
+                "url": "/portal/core",
+
+                "es": 449,
+
+                "d": 3,
+
+                "sat": 200,
+
+                "t": 0,
+
+                "res": 659,
+
+                "req": 4385,
+
+                "txid": "1490333456521fd45708",
+
+                "txtime": "383455386",
+
+                "bid": "hyee7huommq9dx2n",
+
+                "dtxt": "other",
+
+                "ba": "CA211040\#other"
+
+            }
+
+        \]
+
+    }
+
+\]
 
