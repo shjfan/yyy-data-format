@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/busi
+/send/api/transaction
 
 * ## 属性说明
 * ## 样例
