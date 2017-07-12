@@ -14,4 +14,8 @@
   * [JVM事务概要信息](/JVM/JVM事务概要信息.md)
   * [JVM事务统计信息](JVM/JVM事务统计信息.md)
   * [JVM SQL信息](JVM/JVM SQL信息.md)
+* [brower](brower/README.md)
+  * [web端error信息](brower/web端error信息.md)
+  * [web端xhr信息](brower/web端xhr信息.md)
+  * [web端页面性能信息](brower/web端页面性能信息.md)
 
