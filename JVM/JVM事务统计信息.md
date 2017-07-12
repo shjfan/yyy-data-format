@@ -25,5 +25,51 @@
   | webthp | web事务吞吐量 | 每分钟执行web事务数 |
 * ## 样例
 
+\[
 
+    {
+
+        "content": \[
+
+            {
+
+                "ecnt": 0,
+
+                "time": 12935,
+
+                "ts": 1490331091859,
+
+                "cnt": 61,
+
+                "wtime": 12935,
+
+                "thp": 60,
+
+                "webcnt": 61,
+
+                "dtime": 60337,
+
+                "wecnt": 0,
+
+                "webthp": 60
+
+            }
+
+        \],
+
+        "header": {
+
+            "srid": "YtWELYpvZc0164342496",
+
+            "pt": "txc",
+
+            "appid": "ztRUFZRPDK0151963951",
+
+            "tid": "RitGmoBwfw0151671866"
+
+        }
+
+    }
+
+\]
 
