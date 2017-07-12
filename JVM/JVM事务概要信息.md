@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/availability
+/send/api/transaction
 
 * ## 属性说明
 
