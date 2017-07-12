@@ -20,23 +20,23 @@
 
 * ## 样例
 
-> ```json
-> [{
-> 	"header":{
-> 		"tid":"JsVkXHdqTG1878285484",
-> 		"appid":"TZbafrPAmp1880722139",
-> 		"pt":"dataToken",
-> 		"srid":"-1",
-> 		"platform":"Android"
-> 	},
-> 	"content":[
-> 		{
-> 			"accountId":0,
-> 			"agentId":0
-> 		}
-> 	]
-> }]
-> ```
+```json
+[{
+	"header":{
+		"tid":"JsVkXHdqTG1878285484",
+		"appid":"TZbafrPAmp1880722139",
+		"pt":"dataToken",
+		"srid":"-1",
+		"platform":"Android"
+	},
+	"content":[
+		{
+			"accountId":0,
+			"agentId":0
+		}
+	]
+}]
+```
 
 
 
