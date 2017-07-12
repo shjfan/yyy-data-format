@@ -8,7 +8,7 @@
 
 | **名称** | **指标含义** | **注释** |
 | :--- | :--- | :--- |
-| header |  |  |
+| **header** |  |  |
 | tid | 租户码 |  |
 | appid | 应用ID |  |
 | pt | pf |  |
@@ -64,141 +64,143 @@
 
 \[
 
-    {
+```
+{
 
-        "header": {
+    "header": {
 
-            "tid": "RitGmoBwfw0151671866",
+        "tid": "RitGmoBwfw0151671866",
 
-            "appid": "ztRUFZRPDK0151963951",
+        "appid": "ztRUFZRPDK0151963951",
 
-            "ip": "\#~\#~\#~",
+        "ip": "\#~\#~\#~",
 
-            "pt": "pf"
+        "pt": "pf"
 
-        },
+    },
 
-        "content": \[
+    "content": \[
 
-            {
+        {
 
-                "tn": 1490333165366,
+            "tn": 1490333165366,
 
-                "tds": 1,
+            "tds": 1,
 
-                "tde": 1,
+            "tde": 1,
 
-                "tcs": 1,
+            "tcs": 1,
 
-                "tce": 1,
+            "tce": 1,
 
-                "tf": 1,
+            "tf": 1,
 
-                "tqs": 85,
+            "tqs": 85,
 
-                "trs": 2401,
+            "trs": 2401,
 
-                "tre": 2404,
+            "tre": 2404,
 
-                "tol": 2411,
+            "tol": 2411,
 
-                "toi": 3523,
+            "toi": 3523,
 
-                "tos": 3524,
+            "tos": 3524,
 
-                "toe": 3524,
+            "toe": 3524,
 
-                "toc": 4726,
+            "toc": 4726,
 
-                "tls": 4726,
+            "tls": 4726,
 
-                "tle": 4727,
+            "tle": 4727,
 
-                "je": 0,
+            "je": 0,
 
-                "jid": "24aa\_7a7cf62f1490333170101",
+            "jid": "24aa\_7a7cf62f1490333170101",
 
-                "url": "http://221.228.101.161:5796/portal/app/taskcenterApp?nodecode=11110101&$portletWind=pint\_task\_pint\_TaskCenterPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic&lrid=2219864255&$portletWind=pint\_task\_pint\_TaskCenterPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic",
+            "url": "http://221.228.101.161:5796/portal/app/taskcenterApp?nodecode=11110101&$portletWind=pint\_task\_pint\_TaskCenterPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic&lrid=2219864255&$portletWind=pint\_task\_pint\_TaskCenterPortlet&\_h3ra=221.228.101.161:5796/portal&$langcode=simpchn&$themeid=webclassic",
 
-                "ts": 1490333170101,
+            "ts": 1490333170101,
 
-                "jt": "web",
+            "jt": "web",
 
-                "bv": "Chrome55.0.2883.87",
+            "bv": "Chrome55.0.2883.87",
 
-                "pfcont": \[
+            "pfcont": \[
 
-                    {
+                {
 
-                        "o": 2414.66,
+                    "o": 2414.66,
 
-                        "rt": "script",
+                    "rt": "script",
 
-                        "n": "http://221.228.101.161:5796/portal/yonyou-yyy.js",
+                    "n": "http://221.228.101.161:5796/portal/yonyou-yyy.js",
 
-                        "f": 2414.66,
+                    "f": 2414.66,
 
-                        "ds": 2414.66,
+                    "ds": 2414.66,
 
-                        "de": 2414.66,
+                    "de": 2414.66,
 
-                        "cs": 2414.66,
+                    "cs": 2414.66,
 
-                        "ce": 2414.66,
+                    "ce": 2414.66,
 
-                        "sl": 0,
+                    "sl": 0,
 
-                        "qs": 2420.2250000000004,
+                    "qs": 2420.2250000000004,
 
-                        "rs": 2586.815,
+                    "rs": 2586.815,
 
-                        "re": 3460.135,
+                    "re": 3460.135,
 
-                        "tfs": 8125,
+                    "tfs": 8125,
 
-                        "sat": 200
+                    "sat": 200
 
-                    },
+                },
 
-                    {
+                {
 
-                        "o": 2415.11,
+                    "o": 2415.11,
 
-                        "rt": "link",
+                    "rt": "link",
 
-                        "n": "http://221.228.101.161:5796/lfw/frame/device\_pc/themes/webclassic/ui/ctrl/button/button.css",
+                    "n": "http://221.228.101.161:5796/lfw/frame/device\_pc/themes/webclassic/ui/ctrl/button/button.css",
 
-                        "f": 2415.11,
+                    "f": 2415.11,
 
-                        "ds": 2415.11,
+                    "ds": 2415.11,
 
-                        "de": 2415.11,
+                    "de": 2415.11,
 
-                        "cs": 2415.11,
+                    "cs": 2415.11,
 
-                        "ce": 2415.11,
+                    "ce": 2415.11,
 
-                        "sl": 0,
+                    "sl": 0,
 
-                        "qs": 2420.875,
+                    "qs": 2420.875,
 
-                        "rs": 2579.4,
+                    "rs": 2579.4,
 
-                        "re": 2586.46,
+                    "re": 2586.46,
 
-                        "tfs": 1205,
+                    "tfs": 1205,
 
-                        "sat": 200
+                    "sat": 200
 
-                    }
+                }
 
-                \]
+            \]
 
-            }
+        }
 
-        \]
+    \]
 
-    }
+}
+```
 
 \]
 
