@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/availability
+/send/api/mobile
 
 * ## 属性说明
 
@@ -23,33 +23,35 @@
 
 \[{
 
-	"header":{
+```
+"header":{
 
-		"tid":"JsVkXHdqTG1878285484",
+    "tid":"JsVkXHdqTG1878285484",
 
-		"appid":"TZbafrPAmp1880722139",
+    "appid":"TZbafrPAmp1880722139",
 
-		"pt":"app",
+    "pt":"app",
 
-		"srid":"-1",
+    "srid":"-1",
 
-		"platform":"Android"
+    "platform":"Android"
 
-	},
+},
 
-	"content":\[
+"content":\[
 
-		{
+    {
 
-			"name": "办公OA",
+        "name": "办公OA",
 
-			"packageid": "com.rock.xinhuapk",
+        "packageid": "com.rock.xinhuapk",
 
-			"version": "1.1.5"
+        "version": "1.1.5"
 
-		}
+    }
 
-	\]
+\]
+```
 
 }\]
 
