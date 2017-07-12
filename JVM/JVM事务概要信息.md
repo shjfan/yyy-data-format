@@ -77,8 +77,7 @@
   | dbcnt | 数据库访问次数 |  |
   | gctime | gc累积时间 |  |
   | error | 是否发生错误 |  |
-
 * ## 样例
 
-
+[http://pan.baidu.com/s/1eSEJB02](http://pan.baidu.com/s/1eSEJB02)
 
