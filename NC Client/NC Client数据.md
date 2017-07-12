@@ -2,10 +2,9 @@
 
 * ## 接口
 
-/send/api/availability
+/send/api/busi
 
 * ## 属性说明
-
 * ## 样例
 
 
