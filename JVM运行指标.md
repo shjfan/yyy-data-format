@@ -6,9 +6,66 @@
 
 * ## 属性说明
 
-## 
+| **名称** | **指标含义** | **注释** |
+| :--- | :--- | :--- |
+| **header** |  |  |
+| appid | 应用ID |  |
+| ep | host名称 |  |
+| tid | 租户码 |  |
+| srid | 服务ID |  |
+| **content** |  |  |
+| memory.used | 已使用内存大小 |  |
+| memory.physical | 自身内存大小 |  |
+| memory.heap.used | 已使用堆内存大小 |  |
+| memory.heap.max | 堆的最大值 |  |
+| memory.heap.utilization | 堆内存的利用率 |  |
+| memory.heap.committed | 为堆分配的内存大小 |  |
+| memorypool.heap.survivorspace.committed | 为幸存区分配内存大小 |  |
+| memorypool.heap.survivorspace.used | 已使用幸存区大小 |  |
+| memorypool.heap.survivorspace.max | 幸存区的最大值 |  |
+| memorypool.heap.edenspace.committed | 为伊甸园区分配的内存大小 |  |
+| memorypool.heap.edenspace.used | 伊甸园区使用堆内存大小 |  |
+| memorypool.heap.edenspace.max | 伊甸园区使用堆内存的最大值 |  |
+| memorypool.heap.tenuredgen.max | 老年代的最大值 |  |
+| memorypool.heap.tenuredgen.committed | 为老年代区分配内存大小 |  |
+| memorypool.heap.tenuredgen.used | 老年代已使用堆内存大小 |  |
+| memory.nonheap.used | 已使用的非堆大小 |  |
+| memory.nonheap.max | 非堆的最大值 |  |
+| memory.nonheap.committed | 为非堆分配内存大小 |  |
+| memorypool.nonheap.codecache.committed | 为非堆代码缓存区分配内存大小 |  |
+| memorypool.nonheap.codecache.used | 非堆代码缓存使用大小 |  |
+| memorypool.nonheap.codecache.max | 非堆代码缓存区的最大值 |  |
+| memorypool.nonheap.permgen.used | 非堆永久区的使用大小 |  |
+| memorypool.nonheap.permgen.max | 非堆永久区的最大值 |  |
+| memorypool.nonheap.permgen.committed | 非堆永久区分配内存大小 |  |
+| gc.marksweepcompact.count | 标记-清理算法调用次数 |  |
+| gc.marksweepcompact.maxtime | 标记-清理算法执行最大时间 |  |
+| gc.marksweepcompact.mintime | 标记-清理算法执行最小时间 |  |
+| gc.marksweepcompact.sumofsquares | 标记-清理算法执行时间的平方和 |  |
+| gc.marksweepcompact.total | 标记-清理算法执行总计时间 |  |
+| gc.marksweepcompact.totalexclusivetime | 标记-清理算法总计执行该方法之外的时间 |  |
+| gc.copy.count | 拷贝算法次数 |  |
+| gc.copy.maxtime | 拷贝算法执行最大时间 |  |
+| gc.copy.mintime | 拷贝算法执行最小时间 |  |
+| gc.copy.sumofsquares | 拷贝算法执行时间的平方和 |  |
+| gc.copy.total | 拷贝算法执行总计时间 |  |
+| gc.copy.totalexclusivetime | 拷贝算法总计执行该方法之外 |  |
+| gc.all.count | gc次数 |  |
+| gc.all.maxtime | gc执行最大时间 |  |
+| gc.all.mintime | gc执行最小时间 |  |
+| gc.all.sumofsquares | gc执行时间的平方和 |  |
+| gc.all.total | gc执行总计时间 |  |
+| gc.all.totalexclusivetime | gc总计执行该方法之外 |  |
+| threads.count | 线程数 |  |
+| threads.deadlocks.count | 死锁线程数 |  |
+| cpu.user.utilization | cpu使用的利用率 |  |
+| cpu.usertime | cpu使用时间 |  |
+
+
 
 * ## 样例
+
+
 
 
 
