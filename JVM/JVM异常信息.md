@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/availability
+/send/api/exception
 
 * ## 属性说明
 
