@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/availability
+/send/api/mobile
 
 * ## 属性说明
 * ## 样例
