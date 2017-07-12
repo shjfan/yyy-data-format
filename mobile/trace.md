@@ -5,7 +5,6 @@
 /send/api/availability
 
 * ## 属性说明
-
 * ## 样例
 
 
