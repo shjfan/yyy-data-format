@@ -13,7 +13,7 @@
 | appid | 应用ID |  |
 | srid | 服务ID |  |
 | pt | excp |  |
-| content |  |  |
+| **content** |  |  |
 | class | 发生的异常 |  |
 | rqref | 请求来自哪个页面，例如在百度上点击链接到了这里，那么Referer:[http://www.baidu.com](http://www.baidu.com); 如果你是在浏览器的地址栏里输入，那么就没有这个Referer请求头了 |  |
 | rqacc | 告诉服务器客户端可以接收的文档类型 |  |
