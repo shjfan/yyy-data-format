@@ -39,1107 +39,1111 @@
 
 * ## 样例
 
+[http://pan.baidu.com/s/1nv5HRDn](http://pan.baidu.com/s/1nv5HRDn)
+
 \[
 
-    {
+```
+{
 
-        "content": \[
+    "content": \[
 
-            {
+        {
 
-                "port": 5796,
+            "port": 5796,
 
-                "ts": 1490328985723,
+            "ts": 1490328985723,
 
-                "class": "nc.uap.lfw.core.exception.LfwRuntimeException",
+            "class": "nc.uap.lfw.core.exception.LfwRuntimeException",
 
-                "txname": "Unknown",
+            "txname": "Unknown",
 
-                "type": "TransactionError",
+            "type": "TransactionError",
 
-                "msg": "An exception occurred processing JSP page /sync/websm/pserver/html/nodes/login/uimeta.jsp at line 46\n\n43: \t\t&lt;link rel=\"shortcut icon\" href=\"/portal/ufida.ico\"/&gt;\t\n44: \t\t&lt;lfw:base/&gt;\t\t\n45: \t\t&lt;lfw:head/&gt;\t\t\n46: \t\t&lt;lfw:pageImport/&gt;\n47: \t\t&lt;link href=\"/portal/frame/themes/${THEME\_ID}/login/login.css\" rel=\"stylesheet\" type=\"text/css\"&gt;\n48: \t\t&lt;script&gt;\n49: \t\t&lt;%\n\n\nStacktrace:",
+            "msg": "An exception occurred processing JSP page /sync/websm/pserver/html/nodes/login/uimeta.jsp at line 46\n\n43: \t\t&lt;link rel=\"shortcut icon\" href=\"/portal/ufida.ico\"/&gt;\t\n44: \t\t&lt;lfw:base/&gt;\t\t\n45: \t\t&lt;lfw:head/&gt;\t\t\n46: \t\t&lt;lfw:pageImport/&gt;\n47: \t\t&lt;link href=\"/portal/frame/themes/${THEME\_ID}/login/login.css\" rel=\"stylesheet\" type=\"text/css\"&gt;\n48: \t\t&lt;script&gt;\n49: \t\t&lt;%\n\n\nStacktrace:",
 
-                "stk": \[
+            "stk": \[
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.processError\(LfwDispatcherServlet.java:93\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.processError\(LfwDispatcherServlet.java:93\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:83\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:83\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
+                "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
 
-                    "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
+                "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
 
-                    "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
+                "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
+                "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
 
-                    "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
+                "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
+                "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
+                "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
+                "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
+                "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
+                "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
 
-                    "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
+                "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
 
-                    "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
+                "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
 
-                    "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
+                "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
 
-                    "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
+                "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
 
-                    "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
+                "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
 
-                    "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
+                "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
 
-                    "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
+                "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
 
-                    "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
+                "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
 
-                    "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
+                "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
 
-                    "\tjava.lang.Thread.run\(Thread.java:619\)",
+                "\tjava.lang.Thread.run\(Thread.java:619\)",
 
-                    " ",
+                " ",
 
-                    "\torg.apache.jasper.servlet.JspServletWrapper.handleJspException\(JspServletWrapper.java:568\)",
+                "\torg.apache.jasper.servlet.JspServletWrapper.handleJspException\(JspServletWrapper.java:568\)",
 
-                    "\torg.apache.jasper.servlet.JspServletWrapper.service\(JspServletWrapper.java:470\)",
+                "\torg.apache.jasper.servlet.JspServletWrapper.service\(JspServletWrapper.java:470\)",
 
-                    "\torg.apache.jasper.servlet.JspServlet.serviceJspFile\(JspServlet.java:390\)",
+                "\torg.apache.jasper.servlet.JspServlet.serviceJspFile\(JspServlet.java:390\)",
 
-                    "\torg.apache.jasper.servlet.JspServlet.service\(JspServlet.java:334\)",
+                "\torg.apache.jasper.servlet.JspServlet.service\(JspServlet.java:334\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.core.PageControlPlugin.handle\(PageControlPlugin.java:90\)",
+                "\tnc.uap.lfw.core.PageControlPlugin.handle\(PageControlPlugin.java:90\)",
 
-                    "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
+                "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
 
-                    "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
+                "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
+                "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
 
-                    "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
+                "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
 
-                    "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
+                "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
+                "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
 
-                    "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
+                "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
+                "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
+                "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
+                "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
+                "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
+                "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
 
-                    "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
+                "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
 
-                    "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
+                "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
 
-                    "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
+                "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
 
-                    "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
+                "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
 
-                    "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
+                "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
 
-                    "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
+                "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
 
-                    "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
+                "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
 
-                    "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
+                "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
 
-                    "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
+                "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
 
-                    "\tjava.lang.Thread.run\(Thread.java:619\)",
+                "\tjava.lang.Thread.run\(Thread.java:619\)",
 
-                    " ",
+                " ",
 
-                    "\tnc.uap.lfw.core.importer.SmartImporter.genCommonOptimizedImporter\(SmartImporter.java:222\)",
+                "\tnc.uap.lfw.core.importer.SmartImporter.genCommonOptimizedImporter\(SmartImporter.java:222\)",
 
-                    "\tnc.uap.lfw.core.importer.SmartImporter.genImporters\(SmartImporter.java:145\)",
+                "\tnc.uap.lfw.core.importer.SmartImporter.genImporters\(SmartImporter.java:145\)",
 
-                    "\tnc.uap.lfw.core.tags.PageImportTag.doTag\(PageImportTag.java:29\)",
+                "\tnc.uap.lfw.core.tags.PageImportTag.doTag\(PageImportTag.java:29\)",
 
-                    "\torg.apache.jsp.sync.websm.pserver.html.nodes.login.uimeta\_jsp.\_jspx\_meth\_lfw\_005fpageImport\_005f0\(uimeta\_jsp.java:218\)",
+                "\torg.apache.jsp.sync.websm.pserver.html.nodes.login.uimeta\_jsp.\_jspx\_meth\_lfw\_005fpageImport\_005f0\(uimeta\_jsp.java:218\)",
 
-                    "\torg.apache.jsp.sync.websm.pserver.html.nodes.login.uimeta\_jsp.\_jspService\(uimeta\_jsp.java:140\)",
+                "\torg.apache.jsp.sync.websm.pserver.html.nodes.login.uimeta\_jsp.\_jspService\(uimeta\_jsp.java:140\)",
 
-                    "\torg.apache.jasper.runtime.HttpJspBase.service\(HttpJspBase.java:70\)",
+                "\torg.apache.jasper.runtime.HttpJspBase.service\(HttpJspBase.java:70\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\torg.apache.jasper.servlet.JspServletWrapper.service\(JspServletWrapper.java:432\)",
+                "\torg.apache.jasper.servlet.JspServletWrapper.service\(JspServletWrapper.java:432\)",
 
-                    "\torg.apache.jasper.servlet.JspServlet.serviceJspFile\(JspServlet.java:390\)",
+                "\torg.apache.jasper.servlet.JspServlet.serviceJspFile\(JspServlet.java:390\)",
 
-                    "\torg.apache.jasper.servlet.JspServlet.service\(JspServlet.java:334\)",
+                "\torg.apache.jasper.servlet.JspServlet.service\(JspServlet.java:334\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.core.PageControlPlugin.handle\(PageControlPlugin.java:90\)",
+                "\tnc.uap.lfw.core.PageControlPlugin.handle\(PageControlPlugin.java:90\)",
 
-                    "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
+                "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
 
-                    "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
+                "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
+                "\tnc.uap.lfw.app.plugin.AppControlPlugin.handle\(AppControlPlugin.java:158\)",
 
-                    "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
+                "\tnc.uap.lfw.core.LfwCoreController.handleRequest\(LfwCoreController.java:23\)",
 
-                    "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
+                "\tnc.uap.portal.ctrl.PortalCoreController.handleRequest\(PortalCoreController.java:32\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doPost\(LfwDispatcherServlet.java:79\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
+                "\tnc.uap.lfw.core.servlet.LfwDispatcherServlet.doGet\(LfwDispatcherServlet.java:98\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:621\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
+                "\tnc.uap.lfw.core.servlet.LfwServletBase.service\(LfwServletBase.java:30\)",
 
-                    "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
+                "\tjavax.servlet.http.HttpServlet.service\(HttpServlet.java:722\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor695.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:166\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:299\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.invoke\(ApplicationDispatcher.java:684\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.processRequest\(ApplicationDispatcher.java:471\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.doForward\(ApplicationDispatcher.java:402\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.access$0\(ApplicationDispatcher.java:333\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:102\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher$PrivilegedForward.run\(ApplicationDispatcher.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
+                "\torg.apache.catalina.core.ApplicationDispatcher.forward\(ApplicationDispatcher.java:321\)",
 
-                    "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
+                "\tnc.uap.lfw.app.filter.AppFilter.doFilter\(AppFilter.java:52\)",
 
-                    "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
+                "\tnc.uap.portal.servlet.PortalAppFilter.doFilter\(PortalAppFilter.java:28\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor745.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
+                "\tnc.uap.portal.login.filter.AbstractLfwLoginFilter.doFilter\(AbstractLfwLoginFilter.java:103\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor700.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
+                "\tnc.uap.lfw.core.servlet.LfwRequestListener.doFilter\(LfwRequestListener.java:148\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor697.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
+                "\tnc.uap.lfw.core.servlet.filter.compression.CompressingFilter.doFilter\(CompressingFilter.java:257\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor713.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
+                "\tnc.uap.lfw.core.servlet.LogAroundFilter.doFilter\(LogAroundFilter.java:41\)",
 
-                    "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
+                "\tsun.reflect.GeneratedMethodAccessor692.invoke\(Unknown Source\)",
 
-                    "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
+                "\tsun.reflect.DelegatingMethodAccessorImpl.invoke\(DelegatingMethodAccessorImpl.java:25\)",
 
-                    "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
+                "\tjava.lang.reflect.Method.invoke\(Method.java:597\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:274\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
+                "\torg.apache.catalina.security.SecurityUtil$1.run\(SecurityUtil.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
+                "\tjavax.security.auth.Subject.doAsPrivileged\(Subject.java:517\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
+                "\torg.apache.catalina.security.SecurityUtil.execute\(SecurityUtil.java:306\)",
 
-                    "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
+                "\torg.apache.catalina.security.SecurityUtil.doAsPrivilege\(SecurityUtil.java:246\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.internalDoFilter\(ApplicationFilterChain.java:239\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.access$0\(ApplicationFilterChain.java:214\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:193\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain$1.run\(ApplicationFilterChain.java:1\)",
 
-                    "\tjava.security.AccessController.doPrivileged\(Native Method\)",
+                "\tjava.security.AccessController.doPrivileged\(Native Method\)",
 
-                    "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
+                "\torg.apache.catalina.core.ApplicationFilterChain.doFilter\(ApplicationFilterChain.java:188\)",
 
-                    "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
+                "\torg.apache.catalina.core.StandardWrapperValve.invoke\(StandardWrapperValve.java:224\)",
 
-                    "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
+                "\torg.apache.catalina.core.StandardContextValve.invoke\(StandardContextValve.java:169\)",
 
-                    "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
+                "\torg.apache.catalina.authenticator.AuthenticatorBase.invoke\(AuthenticatorBase.java:472\)",
 
-                    "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
+                "\torg.apache.catalina.core.StandardHostValve.invoke\(StandardHostValve.java:168\)",
 
-                    "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
+                "\torg.apache.catalina.valves.ErrorReportValve.invoke\(ErrorReportValve.java:98\)",
 
-                    "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
+                "\torg.apache.catalina.core.StandardEngineValve.invoke\(StandardEngineValve.java:118\)",
 
-                    "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
+                "\torg.apache.catalina.connector.CoyoteAdapter.service\(CoyoteAdapter.java:407\)",
 
-                    "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
+                "\torg.apache.coyote.http11.AbstractHttp11Processor.process\(AbstractHttp11Processor.java:987\)",
 
-                    "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
+                "\torg.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process\(AbstractProtocol.java:539\)",
 
-                    "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
+                "\torg.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run\(JIoEndpoint.java:298\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.runTask\(ThreadPoolExecutor.java:886\)",
 
-                    "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
+                "\tjava.util.concurrent.ThreadPoolExecutor$Worker.run\(ThreadPoolExecutor.java:908\)",
 
-                    "\tjava.lang.Thread.run\(Thread.java:619\)"
+                "\tjava.lang.Thread.run\(Thread.java:619\)"
 
-                \]
-
-            }
-
-        \],
-
-        "header": {
-
-            "srid": "YtWELYpvZc0164342496",
-
-            "pt": "excp",
-
-            "appid": "ztRUFZRPDK0151963951",
-
-            "tid": "RitGmoBwfw0151671866"
+            \]
 
         }
 
+    \],
+
+    "header": {
+
+        "srid": "YtWELYpvZc0164342496",
+
+        "pt": "excp",
+
+        "appid": "ztRUFZRPDK0151963951",
+
+        "tid": "RitGmoBwfw0151671866"
+
     }
+
+}
+```
 
 \]
 
