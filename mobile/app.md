@@ -21,37 +21,5 @@
 
 * ## 样例
 
-\[{
 
-```
-"header":{
-
-    "tid":"JsVkXHdqTG1878285484",
-
-    "appid":"TZbafrPAmp1880722139",
-
-    "pt":"app",
-
-    "srid":"-1",
-
-    "platform":"Android"
-
-},
-
-"content":\[
-
-    {
-
-        "name": "办公OA",
-
-        "packageid": "com.rock.xinhuapk",
-
-        "version": "1.1.5"
-
-    }
-
-\]
-```
-
-}\]
 
