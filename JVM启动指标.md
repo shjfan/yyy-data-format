@@ -2,7 +2,7 @@
 
 * ## 接口
 
-/send/api/availability
+send/api/vmst
 
 * ## 属性说明
 
