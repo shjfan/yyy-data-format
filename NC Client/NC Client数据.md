@@ -32,81 +32,84 @@
 
 * ## 样例
 
-\[
+```json
+[
 
-    {
+{
 
-        "content":\[
+    "content":[
 
-            {
+        {
 
-                "ba":"打开节点-管控范围",
+            "ba":"打开节点-管控范围",
 
-                "bsid":"15b70d034f1000028d244a4096000daf0a0",
+            "bsid":"15b70d034f1000028d244a4096000daf0a0",
 
-                "bstotal":219,
+            "bstotal":219,
 
-                "nettotal":15,
+            "nettotal":15,
 
-                "ts":1492246345164,
+            "ts":1492246345164,
 
-                "txs":\[
+            "txs":[
 
-                    {
+                {
 
-                        "total":61,
+                    "total":61,
 
-                        "txid":"1492246316820a390af9"
+                    "txid":"1492246316820a390af9"
 
-                    },
+                },
 
-                    {
+                {
 
-                        "total":17,
+                    "total":17,
 
-                        "txid":"14922463170766ddef87"
+                    "txid":"14922463170766ddef87"
 
-                    },
+                },
 
-                    {
+                {
 
-                        "total":19,
+                    "total":19,
 
-                        "txid":"1492246311205f04b507"
+                    "txid":"1492246311205f04b507"
 
-                    },
+                },
 
-                    {
+                {
 
-                        "total":37,
+                    "total":37,
 
-                        "txid":"1492246317018f74e744"
+                    "txid":"1492246317018f74e744"
 
-                    }
+                }
 
-                \],
+            ],
 
-                "txtotal":119,
+            "txtotal":119,
 
-                "type":"busi"
-
-            }
-
-        \],
-
-        "header":{
-
-            "appid":"UsrQECBWnj0346199601",
-
-            "pt":"busi",
-
-            "srid":"TygVRsxzMV1485091813",
-
-            "tid":"fUJiOvmThW1856091935"
+            "type":"busi"
 
         }
 
+    ],
+
+    "header":{
+
+        "appid":"UsrQECBWnj0346199601",
+
+        "pt":"busi",
+
+        "srid":"TygVRsxzMV1485091813",
+
+        "tid":"fUJiOvmThW1856091935"
+
     }
 
-\]
+}
+]
+```
+
+
 
