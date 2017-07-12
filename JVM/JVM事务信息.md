@@ -97,6 +97,12 @@
 | dbcnt | 数据库访问次数 |  |
 | gctime | gc累积时间 |  |
 | error | 是否发生错误 |  |
+| mem | php函数占用的内存 | php探针添加的字段 |
+| php | php版本 | php探针添加的字段 |
+| sapi | 服务端应用编程接口 | php探针添加的字段 |
+| cwt | php编译耗时 | php探针添加的字段 |
+| xhpv | php探针版本 | php探针添加的字段 |
+| framework | php使用的框架 | php探针添加的字段 |
 
 * ## 样例
 
