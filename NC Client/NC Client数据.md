@@ -12,6 +12,7 @@
 | tid | 租户码 |  |
 | appid | 应用ID |  |
 | srid | 服务ID |  |
+| ip | ip地址 |  |
 | pt | busi |  |
 | **content** |  |  |
 | ba | 业务操作名称 |  |
